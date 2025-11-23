@@ -12,7 +12,7 @@ export default defineConfig({
       registerType: "autoUpdate",
       includeAssets: ["favicon.ico", "logo192.png", "logo512.png"],
       manifest: {
-        name: "Scanner - Contrôleur",
+        name: "ScanB",
         short_name: "Scanner",
         description: "Application de scan de billets pour les contrôleurs",
         theme_color: "#3b82f6",

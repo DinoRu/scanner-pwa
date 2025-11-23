@@ -8,6 +8,7 @@ import {
 import LoginPage from "./pages/LoginPage";
 import ScannerPage from "./pages/ScannerPage";
 import apiService from "./services/api";
+import InstallPWAButton from "./components/InstallPWAButton";
 
 // Composant de protection des routes
 const ProtectedRoute = ({ children }) => {
@@ -18,6 +19,7 @@ const ProtectedRoute = ({ children }) => {
 function App() {
   return (
     <Router>
+      <InstallPWAButton />
       <Routes>
         <Route path="/login" element={<LoginPage />} />
         <Route
